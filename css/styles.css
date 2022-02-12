@@ -59,6 +59,8 @@ body {
 .navi-contact-tel:focus {
   color: var(--accent-color);
 }
+.navi-list .navi-item-link.current {
+    color: var(--accent-color);
 /* Hero */
 .hero{
     background-color: var(--secondary-bg-color);
