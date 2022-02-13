@@ -177,12 +177,12 @@ body {
   font-style: normal;
 }
 .footer-address {
-  color: rgba(255, 255, 255, 0, 6);
+  color: var(--primery-white-color);
   line-height: 24px;
 }
 .footer-mail,
 .footer-tel {
-  color: rgba(255, 255, 255, 0, 6);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
