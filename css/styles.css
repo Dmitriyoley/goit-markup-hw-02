@@ -9,6 +9,7 @@
   --primery-title-color: #212121;
   --accent-color: #2196f3;
   --secondary-bg-color: #2F303A;
+  --third-bg-color: #F5F4FA;
 }
 body {
   background-color: var(--primery-white-color);
@@ -16,6 +17,7 @@ body {
   font-family: var(--main-font);
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-size: 14px;
 }
 /* Seite nav */
 .header-logo {
@@ -34,7 +36,6 @@ body {
 .navi-item-link {
   color: var(--primery-title-color);
   font-family: var(--main-font);
-  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -47,7 +48,6 @@ body {
 .navi-contact-mail,
 .navi-contact-tel {
   color: var(--primery-text-color);
-  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -73,6 +73,7 @@ body {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
+    text-transform: uppercase;
 }
 .hero-btn {
     background-color: var(--accent-color);
@@ -87,13 +88,11 @@ body {
 /* Hang */
 .hang-subtitle {
     color: var(--primery-title-color);
-    font-family: Roboto;
-    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 .hang-item-text { 
-    font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
 }
@@ -127,7 +126,7 @@ body {
 }
 /* Page */
 .page-filters-btn {
-    background-color: #F5F4FA;
+    background-color: var(--third-bg-color);
     color: var(--primery-title-color);
     cursor: pointer;   
     font-size: 16px;
@@ -180,13 +179,11 @@ body {
 }
 .footer-address {
     color: rgba(255, 255, 255, 0,6);
-    font-size: 14px;
     line-height: 24px;
 }
 .footer-mail,
 .footer-tel {
-    color:var(--primery-white-color);
-    font-size: 14px;
+    color:var(--primery-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
